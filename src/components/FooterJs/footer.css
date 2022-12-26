@@ -1,0 +1,118 @@
+.n-footer{
+  height: 20vh;
+  margin:4em;
+}
+.n-footer .n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    top: 0;
+  }
+.n-footer .n-left {
+    align-items: center;
+    justify-content: left;;
+  }
+  
+.n-footer    .n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    /* figmaa style */
+    color:#381DDB;
+    font-family:'Montserrat'; font-style: italic;
+    width:70px;
+    height:26px
+  }
+.n-footer .n-sub{
+
+  width:40%;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+
+  /* General / Dark */
+
+  color: #222222;
+
+  opacity: 0.3;
+}
+.n-footer  .n-right {
+
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+  }
+  
+.n-footer  .n-list {
+    flex: 10;
+  }
+.n-footer  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  
+.n-footer  .n-list > ul :hover {
+    color: var(--orange);
+    cursor: pointer;
+  }
+.n-footer #l1,#l2,#l3,#l4,#l5,#l6{
+  width:120%;
+  font-size:0.7rem;
+  color: #222222;
+
+}  
+
+.n-footer  .n-button {
+    flex: 2;
+  }
+  
+.n-footer .sign_in
+{
+  color: blue;
+  border-width:1px; border-style:solid; border-color:blue; padding: 1em;
+  background-color: transparent;
+  border:none;
+}
+.n-footer .sign_up{
+  color:blue;
+  border-width:1px; border-style:solid; border-color:blue; padding: 1em;
+  background-color: transparent;
+  position:relative;
+}
+
+.n-footer .icons{
+  display:flex;
+  width:200px;
+  gap:1rem;
+  position: relative;
+  left:180px;
+  top:50px;
+}
+
+  @media screen and (max-width: 490px) {
+    .n-footer{
+      height: 75vh;
+      margin:0px;
+    }
+    .n-footer .n-wrapper{
+      display: inline;
+    }
+    .n-footer .n-sub{
+      position: relative;
+      top:18px;
+    }
+    .n-footer .n-list{
+      position: relative;
+      right:50px;
+      top:25px;
+    }
+
+  }
+  

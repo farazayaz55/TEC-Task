@@ -1,0 +1,110 @@
+@media screen and (max-width: 490px) {
+  .extended_detail{
+    width: 90%;
+  }
+
+  .card span:nth-child(3){
+    width: 90%;
+  }
+}
+
+.extended_detail{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7px !important;
+  line-height: 38px;
+}
+
+
+.card>span:nth-child(2){
+  position: absolute;
+  top:150px;
+
+  /* figma font */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+
+  color: #222222;
+  margin-top: 40px;
+}
+
+.portfolio .swiper-slide:nth-child(2n) .card>span:nth-child(2){
+  color: #FFFFFF;;
+}
+
+
+
+.card span:nth-child(3){
+  position: absolute;
+  top:200px;
+  margin-top: 40px;
+  /* figma */
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+
+  /* General / Dark */
+
+  color: #222222;
+
+  opacity: 0.7;
+}
+
+.portfolio .swiper-slide:nth-child(2n) .card>span:nth-child(3){
+  color: #FFFFFF;;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 340px;
+  width: 150px;
+  text-align: center;
+  padding: 0px 26px 2rem 26px;
+  
+}
+
+.card > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
+  margin:1rem;
+}
+.c-button {
+
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290FD;
+    position:absolute;
+    top:340px;
+    background: transparent;
+}
+
+.c-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* cards */
+
+
+
+
+
+
+.react-card-flip{
+  position: relative;
+  bottom:220px;
+  right:90px;
+}

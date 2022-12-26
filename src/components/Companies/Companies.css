@@ -1,0 +1,155 @@
+.companies{
+    margin:4em;
+}
+
+.companies h1{
+    text-align: center;
+
+    /* figma */
+    /* Desktop / H2 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+    /* or 44px */
+
+    text-align: center;
+
+    /* General / Dark */
+
+    color: #222222;
+}
+
+.companies h4{
+    width:70%;
+    position: relative;
+    left:225px;
+}
+
+.companies .swiper{
+    width:50%;
+    height:300px;
+}
+
+
+
+/* bluring all slides, and then unbluring next,prev,active */
+
+.companies .swiper-slide
+{
+    opacity:0.2;
+    
+}
+
+.companies .swiper-slide-active,.swiper-slide-next,.swiper-slide-prev{
+    opacity: 1.0 !important;
+    position: relative;
+    right:50px;
+}
+
+.companies .swiper-slide img{
+  display: block;
+  width: 100%;
+  height: 50%;
+  padding:2px;
+  object-fit: contain;
+  /* border: 1px solid #fff;
+  backdrop-filter: blur(10px);
+  border-radius: 26px;   */
+  background:#2222220e;
+  margin:30px;
+
+}
+
+.comapnies img{
+    position:relative;
+    top:50px;
+}
+
+ /* i am displaying 2 left arrow buttons 
+and 2 right arrow button to handle media query accordingly  */
+
+.companies .Arrow,.Arrow3{
+    width:50px;
+    height:50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    position: relative;
+    
+    left: 0px;
+    right: 100px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+.companies p{
+    position: relative;
+    left:450px;
+}
+
+
+
+.companies .Arrow2{
+    width:50px;
+    height:50px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0px;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+
+@media only screen and (max-width: 490px)
+{
+    .companies{
+        margin:0em;
+    }
+    .companies .Arrow2{
+      position:relative;
+      left:20px;
+      right:20px;
+      display:none;
+      margin: 40px;
+    }
+    .companies p{
+        position: absolute;
+        font-size:  1rem;
+        left:60px !important;
+        bottom:10px;
+
+    }
+
+    .companies h4{
+        width:100%;
+        position: relative;
+        left:0px;
+    }
+
+    .companies .Arrow{
+      background-color: transparent;
+      position:absolute !important;
+      left:0px !important;
+      right:600px !important;
+      display:flex !important;
+    }
+    .companies .Arrow3{
+        background-color: transparent;
+        position:absolute !important;
+        left:125px !important;
+        right:500px !important;
+        display:flex !important;
+      }
+}
+

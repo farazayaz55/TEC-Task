@@ -1,0 +1,106 @@
+.login-form h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 158% */
+
+
+    /* General / Dark */
+
+    color: #222222;
+
+    /* positioning */
+    position:relative;
+    top:20px;
+    
+    /* figma padding */
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.login-btn{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 10px;
+
+    /* General / Blue */
+
+    background: #381DDB;
+
+    position: relative;
+    left:100px;
+    top:20px;
+}
+
+.fieldsSignup{
+    /* Rectangle 3 */
+
+
+    box-sizing: border-box;
+    opacity: 0.5;
+    /* General / Dark */
+
+    border: 1px solid #222222;
+
+    /* position and padding by figma pic */
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.show{
+    display:block;
+    transition:800ms;
+    opacity:1;
+    position:absolute;
+    left:650px;
+    top:200px;
+}
+.activeshow{
+    transform: translateY(100px) scale(0) rotateY(180deg);
+    opacity: 0;
+}
+.login-form{
+    border-width:4px; border-style:solid; border-color:rgb(236, 236, 236); padding: 1em;
+    background-color: white;
+    position: relative;
+    height:566px;
+    left:410px;
+    border-radius: 26px;
+    border: 5px solid rgb(65, 109, 78);
+
+    backdrop-filter: blur(10px);
+    width:470px;
+    height: 420px;
+}
+
+.form-box{
+    position: relative;
+    bottom:60px;
+    display: flex;
+}
+
+.login-form .laptop{
+    position:relative;
+    left:60px;
+    top:150px;
+    width:100px;
+    object-fit: contain;
+}
+
+
+
+.login-form .laptopCard{
+    background-color: black;
+    width: 70px;
+    position: relative;
+    left:150px;
+    top: 100px;
+    height:370px;
+    background: #381DDB;
+    opacity: 0.05;
+}

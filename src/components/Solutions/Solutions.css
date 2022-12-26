@@ -1,0 +1,124 @@
+/* stack image  background */
+.imgsrc2
+{
+    z-index: -1;
+    position: absolute;
+    right:300px;
+    bottom: 175px;
+    height:300px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.flex-container {
+    display: flex;
+    gap: 7rem;
+    position: relative;
+    left: 300px;
+    margin:4em;
+  }
+  
+
+
+.Image{
+  display: block;
+  margin-top: auto;
+  position: relative;
+  top:10px;
+}
+
+.Image .imgsrc{
+    object-fit: contain;
+}
+/* h1{
+    color:blue;
+    float:right;
+    width:500px;
+} */
+.Heading{
+    text-align: right;
+    width:500px;
+}
+
+.Heading > h1{
+    color:blue;
+}
+.Description > h2{
+    width:500px;
+    text-align: left;
+    /* figma font */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+/* identical to box height, or 44px */
+
+
+/* General / Dark */
+
+    color: #222222;
+}
+.Description > h3{
+    margin:4px;
+    color:black;
+    font-weight: 50;
+    width:500px;
+    text-align: left;
+
+    /* figma font */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* General / Dark */
+
+    color: #222222;
+
+    opacity: 0.7;
+}
+.Description{
+    position: relative;
+    top:50px;
+}
+
+@media only screen and (max-width: 490px) {
+    .imgsrc2{
+        display: none;
+    }
+    .Image .imgsrc{
+        width:300px;
+        position: relative;
+        left:20px;
+    }
+
+    .flex-container{
+        position: relative;
+        right:400px;
+        left:0;
+        display: inline;
+        margin:0em;
+        
+    }
+    .flex-container .Image{
+        height:200px !important;
+    }
+    .flex-container .Description h3{
+        width: 200px;
+    }
+
+    .swiper{
+        position: relative !important;
+        top:20px;
+    }
+    .Description{
+        position: relative;
+        bottom: 0px !important;
+        top: 100px !important;
+        height:700px;
+    }
+}

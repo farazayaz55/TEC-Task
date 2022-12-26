@@ -1,0 +1,285 @@
+/* @import url("../../img/image.png"); */
+/* figma font styling */
+.figmaFont{
+  font-family:'Montserrat'; font-size: 14px; font-weight: 600;   line-height: 20px;
+}
+/* figma read more */
+.navButtonTxt{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  /* General / Light Red */
+
+  color: #FFA3A3;
+
+}
+
+.homeNav{
+  color:#FFA3A3;
+}
+
+.imgBackground{
+  background-image: url("../../img/image.png");
+  
+  /* Add the blur effect */
+
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* move n wrapper upside */
+
+
+
+.Out-wrapper .ReadMore{
+  position:relative;
+  left:100px;
+  align-self: flex-start;
+  width:350px;
+}
+.Out-wrapper .Star{
+  position:relative;
+  left:100px;
+  align-self: flex-start;
+  /* figma fonting */
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Out-wrapper #sign_in
+{
+  color:blue;
+  border-width:1px; border-style:solid; border-color:blue; padding: 1em;
+  background-color: transparent;
+  border:none;
+  position: relative;
+  bottom:0.75em;
+  right:50px;
+}
+.Out-wrapper #sign_up{
+  color:blue;
+  border-width:1px; border-style:solid; border-color:blue; padding: 1em;
+  background-color: transparent;
+  position:relative;
+  bottom:8px;
+  right:50px;
+
+}
+
+.Out-wrapper .company-details h1{
+  position: relative;
+  left:100px;
+  width: 250px;
+  /* figma font */
+
+  /* Desktop / H1 / Bold */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  /* General / Light Red */
+
+  color: #FFA3A3;
+}
+
+.Out-wrapper .company-details h3,.ReadMore{
+  position: relative;
+  left:100px;
+  width: 250px;
+  /* figma font */
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  /* or 158% */
+  
+  
+  /* General / Light */
+  
+  color: #FFFFFF;
+  
+}
+.Out-wrapper{
+  margin-bottom:4em;
+  background-size: contain;
+  /* 920 + (20+20) for borders */
+  height: 960px;
+  /* 1920 + (20+20) for borders */
+  width:1960px;
+  border-radius: 26px;
+  border: 5px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding:30px;
+}
+.Out-wrapper .company-details > h1 {
+  color:orange;
+}
+.Out-wrapper .company-details > h3 {
+  color:white;
+}
+.Out-wrapper .n-wrapper {
+  height: 980px;
+  width:1980px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  position: absolute;
+  top:20px;
+  left:20px;
+  bottom:0%;
+  width:98%;
+}
+.lengthyText{
+  width:90%;
+}
+
+.Out-wrapper .n-left {
+  /* figma gap */
+  height:230px;
+  display:flex;
+  flex: 10.0;
+  padding:14px;
+  justify-content: left;
+  gap: 2rem;
+}
+.Out-wrapper .n-left-column {
+  display:flex;
+  flex-direction: column;
+  flex: 1.5;
+  padding:14px;
+  justify-content: left;
+  background: rgb(51, 78, 150);
+}
+.Out-wrapper .home{
+  color:white;
+}
+.Out-wrapper .n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  position:relative;
+  left:100px;
+  flex:0.3;
+  /* styles from figma image */
+  color:#FFFFFF;
+  font-family:'Montserrat'; font-style: italic;
+  width:70px;
+  height:26px
+}
+.Out-wrapper .n-right {
+  flex: 0.9;
+
+  align-items: col;
+  justify-content: flex-end;
+  font-weight: 400;
+  position:relative;
+  width:90%;
+}
+
+.Out-wrapper .n-list {
+  width:325.5px;
+  position: relative;
+  top:20px;
+  left:300px;
+}
+.Out-wrapper #readMoreSpan{
+  color: blue;
+  background-color: white;
+  border:none;
+}
+
+.Out-wrapper .readMoreButtonRow{
+  position:relative;
+  top:15px;
+}
+
+.Out-wrapper #readMoreBtn{
+  background-color: transparent;
+  border: none;
+  color:  #FFA3A3;;
+}
+
+
+.Out-wrapper .n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+
+.Out-wrapper .n-list > ul :hover {
+  color: var(--orange);
+  cursor: pointer;
+  position: relative;
+}
+.Out-wrapper .l-list > ul {
+  color:white;
+  font-size: 10px;
+  position: relative;
+  bottom:3px;
+  left:50px;
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+
+.Out-wrapper .l-list > ul :hover {
+  color: var(--orange);
+  cursor: pointer;
+  position: relative;
+}
+
+.Out-wrapper .n-button {
+  flex: 2;
+}
+
+@media only screen and (max-width: 490px) {
+  .imgBackground{
+    display: none;
+  }
+  /* .n-wrapper{
+
+  } */
+  /* change the height */
+  .Out-wrapper{
+    height: 120vh;
+    width:110%;
+    position: relative;
+    right:50px;
+    margin: 0px;
+  }
+
+
+  .Out-wrapper .n-wrapper{
+    height: 120vh;
+    position: relative;
+  }
+  /* hide the login and sign in */
+  .Out-wrapper .l-list{
+    display: none;
+  }
+
+  .Out-wrapper .n-left{
+    height:10px;
+  }
+  .Out-wrapper .ReadMore .lengthyText{
+    width:250px;
+  }
+}
